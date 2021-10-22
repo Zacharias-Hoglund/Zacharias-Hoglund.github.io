@@ -1,0 +1,120 @@
+h1.title {
+background-color:darkblue;
+text-decoration: bold;
+line-height: 100px;
+text-align: center;
+font-size: 60px;
+border-bottom: 5px solid darkgray;
+animation-name: formtitlecolor;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+h2{
+color: black;
+font-size: 30px;
+display: inline;
+}
+
+p.medlem{
+font-size: 20px;
+color:lightslategray;
+position: absolute; left: 480px; top: 240px;
+border-left: 3px solid mediumblue;
+border-bottom: 3px solid mediumblue;
+border-right: 3px solid mediumblue;
+padding: 15px;
+}
+
+a.medlem2{
+color: darkblue;
+font-size: 20px;
+}
+
+p.oss{
+font-size: 20px;
+color:lightslategray;
+}
+
+img.bild1{
+position: absolute; left:960px; top:200px;
+
+}
+
+img.bild2{
+position:absolute; left:965px; top:370px;
+
+
+}
+
+h2.medlemskap{
+position: absolute; left:480px; top:180px;
+border-left: 3px solid mediumblue;
+border-top: 3px solid mediumblue;
+border-right: 3px solid mediumblue;
+padding-left: 53px;
+padding-bottom: 20px;
+padding-right: 49px;
+padding-top: 15px;
+}
+
+a.startsida{
+margin-left: 40px;
+color:black;
+text-decoration: bold;
+background-color: lightskyblue;
+font-size:20px;
+padding-left: 10px;
+text-decoration: none;
+border: 2px solid black;
+}
+
+h1.formtitle{
+background-color: blue;
+text-decoration: bold;
+text-align: center;
+font-size: 30px;
+border-bottom: 5px solid darkgray;
+animation-name: formtitlecolor;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+@keyframes formtitlecolor{
+0% {background-color: blue;}
+50% {background-color: lightblue;}
+100% {background-color: blue;}
+}
+
+body.formbody{
+background-image: url("images/leksandlag.jpg");
+background-size: cover;
+
+}
+
+
+input.submit{
+font-size:30px;
+background-color: lightskyblue;
+
+
+}
+
+body.sbody{
+background-color: lightskyblue ;
+
+
+}
+
+
+div.formbackground{
+padding-bottom: 400px;
+padding-right: 500px;
+background-color: whitesmoke;
+display: inline;
+
+}
+
+
